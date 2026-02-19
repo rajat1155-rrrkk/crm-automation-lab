@@ -1,3 +1,5 @@
+[![Python application](https://github.com/rajat1155-rrrkk/crm-automation-lab/actions/workflows/python-app.yml/badge.svg)](https://github.com/rajat1155-rrrkk/crm-automation-lab/actions/workflows/python-app.yml)
+
 # CRM Automation Lab
 
 Enterprise-style CRM automation architecture simulation designed to model real-world Salesforce and CRM/ERP workflow patterns.

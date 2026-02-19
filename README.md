@@ -1,135 +1,131 @@
----
-
-## 🏗 Architecture Flow
-
-
-
-                +-------------------+
-                |   Lead Input      |
-                +-------------------+
-                          |
-                          v
-                +-------------------+
-                | Lead Scoring      |
-                | Engine            |
-                +-------------------+
-                          |
-                          v
-                +-------------------+
-                | Opportunity Stage |
-                | Validation Layer  |
-                +-------------------+
-                          |
-                          v
-                +-------------------+
-                | CRM API           |
-                | Integration Layer |
-                +-------------------+
-                          |
-                          v
-                +-------------------+
-                | External ERP /    |
-                | Third-Party Sync  |
-                +-------------------+
-
-
----
-
-## 🎯 Design Principles
-
-- Modular architecture for extensibility
-- Clear separation of business logic layers
-- Scalable integration pattern simulation
-- Test-driven validation approach
-- Enterprise CRM workflow modeling
-
-
----
-
-## 🔮 Future Enhancements
-
-- Event-driven integration simulation
-- Asynchronous API retry logic
-- Logging & monitoring layer
-- Role-based workflow permissions
-- ERP bi-directional sync modeling
-
-
----
-
 # CRM Automation Lab
 
-Enterprise-style CRM workflow automation and integration patterns.
+Enterprise-style CRM automation architecture simulation designed to model real-world Salesforce and CRM/ERP workflow patterns.
 
-This repository simulates real-world CRM automation architecture across lead scoring, opportunity validation, and API integration layers.
-
----
-
-## Architecture Overview
-
-CRM Automation Lab is structured into modular components:
-
-- **Lead Scoring Engine**
-- **Opportunity Stage Validation**
-- **CRM API Integration Simulation**
-- **Unit Testing Layer**
+This project demonstrates layered CRM logic including lead scoring, workflow validation, and API integration simulation using modular design principles.
 
 ---
 
-## Modules
+## 🏗 Architecture Overview
 
-### 1️⃣ Lead Scoring Engine
+CRM Automation Lab is structured using a layered architecture approach:
+
+- Business Logic Layer (Scoring & Validation)
+- Integration Simulation Layer (REST-style API behavior)
+- Testing Layer (Unit-based validation)
+- External System Simulation (ERP / Third-party sync)
+
+The design models enterprise CRM workflow automation patterns commonly used in Salesforce-led ecosystems.
+
+---
+
+## 🔄 High-Level Component Flow
+
+
+            +-------------------+
+            |   Lead Input      |
+            +-------------------+
+                      |
+                      v
+            +-------------------+
+            | Lead Scoring      |
+            | Engine            |
+            +-------------------+
+                      |
+                      v
+            +-------------------+
+            | Opportunity Stage |
+            | Validation Layer  |
+            +-------------------+
+                      |
+                      v
+            +-------------------+
+            | CRM API           |
+            | Integration Layer |
+            +-------------------+
+                      |
+                      v
+            +-------------------+
+            | External ERP /    |
+            | Third-Party Sync  |
+            +-------------------+
+
+
+
+
+
+---
+
+## 📦 Core Modules
+
+### 1️⃣ Lead Scoring Engine  
 Implements weighted scoring logic based on:
 - Industry type  
 - Company size  
 - Engagement score  
 
-**Location:**  
-`lead-scoring/`
+**Location:** `lead-scoring/`
 
 ---
 
-### 2️⃣ Opportunity Validation Module
-Simulates stage-based CRM workflow validation logic.
+### 2️⃣ Opportunity Stage Validation  
+Simulates stage-based CRM workflow validation logic to enforce business rules across pipeline progression.
 
-**Location:**  
-`opportunity-validation/`
-
----
-
-### 3️⃣ Integration Layer
-Simulates REST-style CRM API behavior for:
-- Creating leads  
-- Updating leads  
-- Retrieving leads  
-
-**Location:**  
-`integration-layer/`
+**Location:** `opportunity-validation/`
 
 ---
 
-## Design Goals
+### 3️⃣ CRM API Integration Simulation  
+Models REST-style CRM API behavior including:
+- Lead creation  
+- Lead updates  
+- Lead retrieval  
 
-- Modular architecture  
-- Enterprise-style workflow simulation  
-- Clean separation of concerns  
-- Testable components  
-- Scalable design patterns  
+**Location:** `integration-layer/`
 
 ---
 
-## Tech Stack
+### 4️⃣ Unit Testing Layer  
+Ensures validation of scoring logic and workflow behavior using structured test cases.
+
+**Location:** `tests/`
+
+---
+
+## 🎯 Design Principles
+
+- Modular architecture for extensibility  
+- Clear separation of business logic layers  
+- Scalable integration pattern simulation  
+- Test-driven validation approach  
+- Enterprise CRM workflow modeling  
+
+---
+
+## 🛠 Tech Stack
 
 - Python  
 - Object-Oriented Design  
-- Workflow Simulation  
 - REST-style API modeling  
+- Workflow simulation patterns  
+- Modular architecture principles  
 
 ---
 
-## Future Enhancements
+## 🔮 Future Enhancements
 
-- Rule engine abstraction  
-- Configurable scoring weights  
-- CI pipeline integration  
-- Mock external ERP connectors  
+- Event-driven integration simulation  
+- Asynchronous API retry logic  
+- Logging & monitoring abstraction  
+- Role-based workflow permissions  
+- ERP bi-directional synchronization modeling  
+- CI/CD pipeline integration  
+
+---
+
+## 📌 Project Purpose
+
+This repository is designed to simulate enterprise CRM automation patterns for architectural demonstration and system design exploration within Salesforce and CRM-integrated ecosystems.
+
+
+

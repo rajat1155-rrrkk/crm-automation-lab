@@ -6,6 +6,16 @@ Enterprise-style CRM automation architecture simulation designed to model real-w
 
 This project demonstrates layered CRM logic including lead scoring, workflow validation, and API integration simulation using modular design principles.
 
+
+## 🧠 Architectural Focus
+
+This project demonstrates:
+- Enterprise CRM workflow orchestration
+- Business rule enforcement across pipeline stages
+- Modular REST-style integration simulation
+- Layered system design aligned with Salesforce ecosystems
+
+
 ---
 
 ## 🏗 Architecture Overview

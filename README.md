@@ -33,8 +33,18 @@
                 +-------------------+
 
 
+---
+
+## 🎯 Design Principles
+
+- Modular architecture for extensibility
+- Clear separation of business logic layers
+- Scalable integration pattern simulation
+- Test-driven validation approach
+- Enterprise CRM workflow modeling
 
 
+---
 
 # CRM Automation Lab
 

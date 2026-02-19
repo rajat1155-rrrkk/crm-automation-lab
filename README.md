@@ -2,44 +2,75 @@
 
 Enterprise-style CRM workflow automation and integration patterns.
 
-This repository simulates real-world CRM automation scenarios across Salesforce and ERP-style systems.
+This repository simulates real-world CRM automation architecture across lead scoring, opportunity validation, and API integration layers.
 
 ---
 
-## Objectives
+## Architecture Overview
 
-- Design modular CRM automation logic
-- Implement validation and workflow triggers
-- Simulate API integrations
-- Demonstrate scalable architecture patterns
+CRM Automation Lab is structured into modular components:
+
+- **Lead Scoring Engine**
+- **Opportunity Stage Validation**
+- **CRM API Integration Simulation**
+- **Unit Testing Layer**
 
 ---
 
 ## Modules
 
-### 1. Lead Scoring Engine
-Automated scoring logic based on predefined business rules.
+### 1️⃣ Lead Scoring Engine
+Implements weighted scoring logic based on:
+- Industry type  
+- Company size  
+- Engagement score  
 
-### 2. Opportunity Validation
-Stage-based validation and workflow enforcement.
+**Location:**  
+`lead-scoring/`
 
-### 3. Integration Layer
-Sample REST-based integration between CRM and external systems.
+---
 
-### 4. Data Utilities
-Data cleanup, transformation, and batch processing scripts.
+### 2️⃣ Opportunity Validation Module
+Simulates stage-based CRM workflow validation logic.
+
+**Location:**  
+`opportunity-validation/`
+
+---
+
+### 3️⃣ Integration Layer
+Simulates REST-style CRM API behavior for:
+- Creating leads  
+- Updating leads  
+- Retrieving leads  
+
+**Location:**  
+`integration-layer/`
+
+---
+
+## Design Goals
+
+- Modular architecture  
+- Enterprise-style workflow simulation  
+- Clean separation of concerns  
+- Testable components  
+- Scalable design patterns  
 
 ---
 
 ## Tech Stack
 
-- Apex (Salesforce automation simulation)
-- Python (integration logic)
-- REST APIs
-- SOQL / Data queries
+- Python  
+- Object-Oriented Design  
+- Workflow Simulation  
+- REST-style API modeling  
 
 ---
 
-## Status
+## Future Enhancements
 
-Work in progress. Structured to simulate enterprise CRM automation scenarios.
+- Rule engine abstraction  
+- Configurable scoring weights  
+- CI pipeline integration  
+- Mock external ERP connectors  

@@ -1,3 +1,41 @@
+---
+
+## 🏗 Architecture Flow
+
+
+
+                +-------------------+
+                |   Lead Input      |
+                +-------------------+
+                          |
+                          v
+                +-------------------+
+                | Lead Scoring      |
+                | Engine            |
+                +-------------------+
+                          |
+                          v
+                +-------------------+
+                | Opportunity Stage |
+                | Validation Layer  |
+                +-------------------+
+                          |
+                          v
+                +-------------------+
+                | CRM API           |
+                | Integration Layer |
+                +-------------------+
+                          |
+                          v
+                +-------------------+
+                | External ERP /    |
+                | Third-Party Sync  |
+                +-------------------+
+
+
+
+
+
 # CRM Automation Lab
 
 Enterprise-style CRM workflow automation and integration patterns.
